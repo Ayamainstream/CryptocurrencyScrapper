@@ -48,9 +48,5 @@ class Scrapper:
                     li.append(dict_copy)
                     i += 1
             return li
-        
-if __name__ == "__main__":
-    scrapper = Scrapper.get_id('ethereum')
-    print(scrapper)
 
     

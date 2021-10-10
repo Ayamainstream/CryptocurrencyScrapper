@@ -1,10 +1,4 @@
 # Scrapper
- 
-## Requirements
-
-Requires python3 and requests,bs4,json library.
-
-`pip install requests bs4 json`
 
 ## Installation
 #### install script

@@ -1,3 +1,4 @@
-Requires python3 and requests,bs4,json library.
-
-pip install requests bs4 json
+beautifulsoup4==4.10.0
+Flask==2.0.1
+Flask_SQLAlchemy==2.5.1
+requests==2.26.0

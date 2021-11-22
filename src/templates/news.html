@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>News</title>
+</head>
+
+<body>
+    <form class="form-inline pt-3 margin-left-xl" method="post">
+        <div class="form-group">
+            <label for="inputPassword6">Coin name</label>
+            <input type="text" id="inputPassword6" class="form-control mx-sm-3" name="coinName"
+                aria-describedby="passwordHelpInline">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </form>
+    {%for i in range(10)%}
+    <div style="padding-left: 5%;">
+        <div class="row pt-2">
+            <div class="col-8" style="padding-top: 3em;">
+                {{news[i]}}
+            </div>
+
+            <div class="col-4" style="padding-top: 3em;">
+                {{summary[i]}}
+            </div>
+        </div>
+    </div>
+    {%endfor%}
+</body>
+
+
+</html>

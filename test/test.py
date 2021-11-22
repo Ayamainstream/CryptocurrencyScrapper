@@ -1,4 +1,5 @@
 import sys
-sys.path.append('C:\\Users\\nurik\\Desktop\\Scrapper')
-from src import web
-web.start()
+sys.path.insert(0, 'C:\\Users\\nurik\\Desktop\\Scrapper')
+
+from src import scrapper
+scrapper.start()
